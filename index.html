@@ -6,17 +6,53 @@
     <link rel="shortcut icon" type="image/x-icon" href="logo3.png">
     <style>
         a {
-            color: rgb(247, 4, 146);
+            color: lightpink;
             text-decoration: none;
+            
         }
+        
         h1 {
             font-size: 45px;
             font-weight: bold;
             text-align: center;
+            border-bottom: 1px solid pink;
+            margin:0px;
+            padding: 50px;
+            background-color: black;
+           
         }
+
+        #grid ol {
+            border-right: pink 1px solid;
+            border-left: pink 1px solid;
+            
+            width: 180px;
+            margin:0%;
+            padding: 30px;
+            padding-left: 60px;
+        }
+
         .list {
             font-size: 25px;
 
+        }
+
+        body {
+            margin:0%;
+            
+        }
+
+        #grid {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            margin-left: 20px;
+        }
+
+        #article {
+            padding: 20px;
+            padding-top: 60px;
+            
+        
         }
        
         
@@ -25,16 +61,30 @@
 
 
 <body>
-    <h1><a href="index.html" style="color:lightpink;">The Hubers</a></h1>
-    <ol>
-        <h3>목차</h3>
-        <li><a href="canada.html" class="list">Canada List</a></li>
-        <li><a href="korea.html" class="list">Korea List</a></li>
-    <img src="https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80">
+    
+    <h1><a href="index.html" style="color:lightpink;">The Hubers Bucket List</a></h1>
+    <div id="grid">
+        
+        
+        
+        <ol>
+        
+            <h3>목차</h3>
+            <li><a href="canada.html" class="list">Canada List</a></li>
+            <li><a href="korea.html" class="list">Korea List</a></li>
+        </ol>
+        
+     
+    
+        <div id="article">
+            <p>안녕하세요! Mr.Huber, Ms.Huber 입니다. The Hubers 홈페이지에 오신 것을 환영합니다!
+            </p>
+            <img src="pastel.jpeg" width="100%">
+            <p>zz</p>
+        
 
-    </ol>
-
-
+        </div>
+    </div> 
 
 
 </body>
